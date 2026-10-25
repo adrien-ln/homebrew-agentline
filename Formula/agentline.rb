@@ -2,28 +2,28 @@
 class Agentline < Formula
   desc "Claude Code statusline with 49 themes and an animated theme picker"
   homepage "https://github.com/adrien-ln/agentline"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/adrien-ln/agentline/releases/download/v0.6.0/agentline_0.6.0_darwin_arm64.tar.gz"
-      sha256 "5bcd79e4fc460ac59bbbb771d4f72c6b6e867c4c2ea93dff9ade156e3ff92e41"
+      url "https://github.com/adrien-ln/agentline/releases/download/v0.7.0/agentline_0.7.0_darwin_arm64.tar.gz"
+      sha256 "2d17bcf191f0b2109958bb263012090b1b408350ca33a73dbb70b95d6100561d"
     end
     on_intel do
-      url "https://github.com/adrien-ln/agentline/releases/download/v0.6.0/agentline_0.6.0_darwin_amd64.tar.gz"
-      sha256 "d456f557cd87c1b085d3e7324e192e224d73d4ed4cfe2248e5bbdbb473c86b43"
+      url "https://github.com/adrien-ln/agentline/releases/download/v0.7.0/agentline_0.7.0_darwin_amd64.tar.gz"
+      sha256 "eba80fc8cebc3287b7219c2f8049f3eae353f3672ed520ed9ee706aee7576923"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adrien-ln/agentline/releases/download/v0.6.0/agentline_0.6.0_linux_arm64.tar.gz"
-      sha256 "b67dfa89778028bea279f61ef9038f80e68843ff766c5db711c626aa7127dd6a"
+      url "https://github.com/adrien-ln/agentline/releases/download/v0.7.0/agentline_0.7.0_linux_arm64.tar.gz"
+      sha256 "be2811f575672a3c775ecde269683fd26e7cb53d5110a68e7bdee93fb6d8c739"
     end
     on_intel do
-      url "https://github.com/adrien-ln/agentline/releases/download/v0.6.0/agentline_0.6.0_linux_amd64.tar.gz"
-      sha256 "10721fa73fece474697d55eabfb7fca240079bbc4fd49ea25a9128d3599a782e"
+      url "https://github.com/adrien-ln/agentline/releases/download/v0.7.0/agentline_0.7.0_linux_amd64.tar.gz"
+      sha256 "c909b093300bd6c36c1e7fec3564de73b33b4978dad316e5464bff116f5b5618"
     end
   end
 
